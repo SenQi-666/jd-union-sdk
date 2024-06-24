@@ -82,7 +82,7 @@ class JDClient:
 
 
 if __name__ == '__main__':
-    client = JDClient('app_key', 'app_secret')
+    client = JDClient('your app key', 'your app secret')
     result = client.request(
         method='jd.union.open.category.goods.get',
         params={'goodsReqDTO': {'keyword': '鞋', 'pageIndex': 1}}
